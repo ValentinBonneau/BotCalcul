@@ -1,0 +1,35 @@
+{
+  "commands": [
+    {
+      "name": "ping",
+      "description": "Replies with pong!",
+      "options": []
+    },
+    {
+      "name": "server",
+      "description": "Replies with server info!",
+      "options": []
+    },
+    {
+      "name": "user",
+      "description": "Replies with user info!",
+      "options": []
+    },
+    {
+      "name": "addition",
+      "description": "additione deux parametre",
+      "options": [
+        {
+          "type": "NUMBER",
+          "name": "A",
+          "required": true
+        },
+        {
+          "type": "NUMBER",
+          "name": "B",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
