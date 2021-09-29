@@ -16,17 +16,73 @@
       "options": []
     },
     {
-      "name": "addition",
+      "name": "adition",
       "description": "additione deux parametre",
       "options": [
         {
-          "type": "NUMBER",
-          "name": "A",
+          "type": 10,
+          "name": "a",
+          "description": "nombre a",
           "required": true
         },
         {
-          "type": "NUMBER",
-          "name": "B",
+          "type": 10,
+          "name": "b",
+          "description": "nombre b",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "soustraction",
+      "description": "additione deux parametre",
+      "options": [
+        {
+          "type": 10,
+          "name": "a",
+          "description": "nombre a",
+          "required": true
+        },
+        {
+          "type": 10,
+          "name": "b",
+          "description": "nombre b",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "multiplication",
+      "description": "additione deux parametre",
+      "options": [
+        {
+          "type": 10,
+          "name": "a",
+          "description": "nombre a",
+          "required": true
+        },
+        {
+          "type": 10,
+          "name": "b",
+          "description": "nombre b",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "division",
+      "description": "additione deux parametre",
+      "options": [
+        {
+          "type": 10,
+          "name": "a",
+          "description": "nombre a",
+          "required": true
+        },
+        {
+          "type": 10,
+          "name": "b",
+          "description": "nombre b",
           "required": true
         }
       ]
