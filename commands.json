@@ -86,6 +86,11 @@
           "required": true
         }
       ]
+    },
+    {
+      "name": "calcul",
+      "description": "fait un calul",
+      "options": []
     }
   ]
 }
